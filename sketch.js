@@ -10,7 +10,7 @@ let logo;
 
 let sonido;
 //let musica;
-let boo;
+//let boo;
 
 let estado = "juego";
 
@@ -63,7 +63,7 @@ function preload() {
   logo = loadImage(`assets/logo.png`);
   salto = loadImage(`assets/salto.png`);
   sonido = loadSound(`assets/estadio.mp3`);
-  boo = loadSound(`assets/boo.mp3`);
+  //boo = loadSound(`assets/boo.mp3`);
   //musica = loadSound(`assets/sunny.mp3`);
 }
 
@@ -285,7 +285,7 @@ function revisaColision() {
 
     // sonido game over
     sonido.stop();
-    boo.play();
+    //boo.play();
     sonido.play();
     estado = "gameover";
   }
@@ -375,7 +375,7 @@ function mousePressed() {
       mouseY < 380
     ) {
 
-      boo.stop();
+      //boo.stop();
       reiniciaJuego();
     }
 
