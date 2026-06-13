@@ -9,7 +9,7 @@ let salto;
 let logo;
 
 let sonido;
-let musica;
+//let musica;
 let boo;
 
 let estado = "juego";
@@ -64,7 +64,7 @@ function preload() {
   salto = loadImage(`assets/salto.png`);
   sonido = loadSound(`assets/estadio.mp3`);
   boo = loadSound(`assets/boo.mp3`);
-  musica = loadSound(`assets/sunny.mp3`);
+  //musica = loadSound(`assets/sunny.mp3`);
 }
 
 //====================================================
@@ -77,9 +77,9 @@ function setup() {
   userStartAudio();
 
   // música fondo
-  musica.setLoop(true);
+  //musica.setLoop(true);
 
-  musica.play();
+  //musica.play();
 }
 
 //====================================================
